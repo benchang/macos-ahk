@@ -197,3 +197,9 @@ return
 Send {Ctrl down}{End}{Ctrl up}
 return
 
+^a::
+Send {Home}
+return
+
+^k::
+Send ^+{End}
